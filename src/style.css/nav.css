@@ -229,7 +229,7 @@
 }
 
 .nav-main {
-    background-color: #324249;
+    background-color: #2d374b;
     height: 40px;
     display: flex;
     align-items: center;
@@ -240,7 +240,7 @@
     justify-items: center;
     align-items: center;  
     height: 100%;
-    padding: 8px 9px 8px 8px;
+    padding: 0 8px 0 8px;
 }
 
 .hamburger-icon {
@@ -255,7 +255,7 @@
 }
 
 .nav-main-middle {
-    width: 1000px;
+    width: 80%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -264,8 +264,7 @@
 .nav-main-middle-options {
     color: #f1ecec;
     font-size: 14px;
-    margin: 5px 18px 6px 0;
-    padding: 8px 9px 12px 9px;
+    padding: 8px 8px 12px 8px;
 }
 
 .nav-main-right {
@@ -283,8 +282,34 @@
     padding: 3px 8px 5px 8px;
 }
 
+.hero-section {
+    background-image: url("/images/hero-section.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
 
+.hero-msg-div {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px 10px 14px;
+    width: 1300px;
+    position: absolute;
+    bottom: 305px;
+    right: 30px;
+}
 
+.hero-msg {
+    font-size: 14px;
+    color: #252828;
+}
+
+.hero-msg-link {
+    color: var(--N4QdChsbGN6j, #007185);
+}
 
 
 
