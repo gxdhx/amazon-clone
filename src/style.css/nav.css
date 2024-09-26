@@ -283,11 +283,14 @@
 }
 
 .hero-section {
-    background-image: url("/images/hero-section.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url("/images/hero-section\ \(2\).jpg");
+    background-size: cover;
     height: 600px;
-    position: relative;
+}
+
+.blurry {
+  max-width: 100%;
+  mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
 }
 
 .hero-msg-div {
