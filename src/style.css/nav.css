@@ -283,26 +283,27 @@
 }
 
 .hero-section {
-    background-image: url("/images/hero-section\ \(2\).jpg");
+    background-image: url("/images/hero-section\(3\)\ \(3\).jpg");
     background-size: cover;
     height: 600px;
+    position: relative;
 }
 
-.blurry {
+.mask-image {
   max-width: 100%;
   mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
 }
 
 .hero-msg-div {
-    background-color: #ffffff;
+    background-color: #f5f6f6;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px 14px 10px 14px;
-    width: 1300px;
     position: absolute;
     bottom: 305px;
-    right: 30px;
+    left: 20px;
+    right: 20px;
 }
 
 .hero-msg {
@@ -313,6 +314,22 @@
 .hero-msg-link {
     color: var(--N4QdChsbGN6j, #007185);
 }
+
+.main-content {
+    background-color: #fff;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    width: 312.250px;
+    height: 385px;
+    z-index: 1;
+}
+
+.box {
+    background-color: blue;
+}
+
+
 
 
 
