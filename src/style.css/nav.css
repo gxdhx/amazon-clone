@@ -61,7 +61,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 3px solid transparent;
+    border-radius: 6px;
+}
 
+.middle-section:active {
+    border: 3px solid #ffa600;
+    border-radius: 6px;
 }
 
 .custom-select {
@@ -73,10 +79,14 @@
 
 .dropdown-icon {
     font-size: 0.625rem;
-    color:  #141c24;
+    color:  #727374;
     position: absolute;
     top: 13px;
     left: 36px;
+}
+
+.dropdown-icon:hover {
+    color:  #141a21;
 }
 
 .All {
@@ -85,11 +95,17 @@
     width: 100%;
     border: 1px;
     appearance: none;
-    color: var(--N4QdCheV6mGo, #0f1111);
+    color: rgb(137, 134, 134);
     background-color: #e6e6e6;
     border-top-left-radius: 3.5px;
     border-bottom-left-radius: 3.5px;  
     padding-left: 10px; 
+    transition: all 0.3s ease;
+}
+
+.All:hover {
+    background-color: #e0dbdb;
+    color: rgb(52, 52, 52);
 }
 
 .search-bar{
@@ -99,12 +115,16 @@
     border-left: 1px solid #cccccc;
     padding: 7px 10px 10px 8px;
     font-size: 0.938rem;
-    
+    transition: all 0.3s ease;
 }
 
 .search-bar::placeholder {
     font-size: 0.938rem;
     font-weight: 400;
+}
+
+.search-bar:focus {
+    outline: none;
 }
 
 .search-button {
@@ -114,7 +134,12 @@
     margin-left: -1px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    border: none;   
+    border: none; 
+    transition: all 0.3s ease; 
+}
+
+.search-button:hover {
+    background-color: #ffa600;
 }
 
 .search-icon {
@@ -177,7 +202,7 @@
 }
 
 .nav-returns-orders {
-    padding: px 9px 5px 9px;
+    padding: 0px 9px 5px 9px;
 }
 
 .returns-text {
@@ -290,8 +315,8 @@
 }
 
 .mask-image {
-  max-width: 100%;
-  mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
+   max-width: 100%;
+   mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
 }
 
 .hero-msg-div {
@@ -315,19 +340,6 @@
     color: var(--N4QdChsbGN6j, #007185);
 }
 
-.main-content {
-    background-color: #fff;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    column-gap: 5px;
-    row-gap: 5px;
-    width: 312.250px;
-    height: 385px;
-    z-index: 1;
-}
-
-.box {
-    background-color: blue;
-}
 
 
 
