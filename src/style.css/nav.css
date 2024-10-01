@@ -209,7 +209,7 @@
 }
 
 .nav-returns-orders {
-    padding: 0px 9px 5px 9px;
+    padding: 8px 9px 5px 9px;
 }
 
 .returns-text {
@@ -319,11 +319,17 @@
     background-size: cover;
     height: 600px;
     position: relative;
+    z-index: 1;
 }
 
 .mask-image {
-   max-width: 100%;
    mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
+   z-index: 2;
+   position: absolute;
+   top: 300px;
+   left: 0;
+   right: 0;
+   bottom: 0;
 }
 
 .hero-msg-div {
@@ -333,9 +339,10 @@
     justify-content: center;
     padding: 10px 14px 10px 14px;
     position: absolute;
-    bottom: 305px;
+    bottom: 390px;
     left: 20px;
     right: 20px;
+    z-index: 3;
 }
 
 .hero-msg {
@@ -345,4 +352,22 @@
 
 .hero-msg-link {
     color: var(--N4QdChsbGN6j, #007185);
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    position: absolute;
+    top: 308px;
+    left: 20px;
+    right: 20px;
+    z-index: 4;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid black;
+    height: 385px;
 }
