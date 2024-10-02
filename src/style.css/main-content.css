@@ -1,0 +1,19 @@
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    position: absolute;
+    top: 412px;
+    left: 20px;
+    right: 20px;
+    z-index: 4;
+    background: linear-gradient(to bottom, transparent 0%, transparent 10%, #e4e4e4 100%); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+}
+
+.box {
+    background-color: white;
+    height: 385px;
+}
