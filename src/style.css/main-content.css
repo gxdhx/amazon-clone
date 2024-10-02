@@ -8,8 +8,7 @@
     left: 20px;
     right: 20px;
     z-index: 4;
-    background: linear-gradient(to bottom, transparent 0%, transparent 10%, #e4e4e4 100%); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background: linear-gradient(to bottom, transparent 0%, transparent 10%, #e4e4e4 100%);  
 
 }
 
