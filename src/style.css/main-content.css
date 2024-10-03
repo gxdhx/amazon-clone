@@ -1,18 +1,29 @@
 .main-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 20px;
     position: absolute;
     top: 412px;
     left: 20px;
     right: 20px;
     z-index: 4;
     background: linear-gradient(to bottom, transparent 0%, transparent 10%, #e4e4e4 100%);  
-
 }
 
-.box {
+.box-column {
     background-color: white;
     height: 385px;
 }
+
+.box-row {
+    background-color: white;
+    height: 261px;
+}
+
+.box-2-row,.box-3-row,.box-4-row,.box-5-row,.box-6-row,.box-7-row,.box-8-row,.box-9-row,.box-10-row,.box-11-row,.box-12-row {
+    margin-top: 18px;
+}
+
+.box-1-row,.box-2-row,.box-5-row,.box-8-row,.box-11-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
