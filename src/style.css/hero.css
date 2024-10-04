@@ -1,9 +1,12 @@
+
 .hero-section {
     background-image: url("/images/hero-section\(3\)\ \(3\).jpg");
     background-size: cover;
     height: 600px;
     position: relative;
     z-index: 1;
+    opacity: 0.9;
+    background-blend-mode: multiply;
 }
 
 .mask-image {
@@ -31,6 +34,6 @@
 }
 
 .hero-msg-link {
-    color: var(--N4QdChsbGN6j, #007185);
+    color: #007185;
 }
 
