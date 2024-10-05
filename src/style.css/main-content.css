@@ -36,22 +36,23 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 30px;
+    column-gap: 13px;
     padding: 0 20px 0 20px;
 }
 
 .product-image {
-    width: 120px;
-    height: 110px;
+    width: 130px;
+    height: 105px;
     object-fit: cover;
     object-position: center;
 }
 
 .product-name {
     font-size: 12px;
-    color: rgb(95, 95, 95);
+    color: #5F5F5F;
 }
 
-.explore-discription {
+.explore-description {
     font-size: 13px;
     color: #099ab4;
     display: inline-block;
@@ -60,7 +61,35 @@
     transition: all 0.15s;
 }
 
-.explore-discription:hover {
-    color: rgb(255, 63, 63);
+.explore-description:hover {
+    color: #D75555;
+}
+
+.second-row-image {
+    margin: 0 20px 0 20px;
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.second-row-description {
+    margin-top: 18px;
+}
+
+ul.images-row {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.image {
+    width: 133px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
 }
 
