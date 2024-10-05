@@ -77,19 +77,60 @@
     margin-top: 18px;
 }
 
+.box-3-row {
+    max-width: 100%;
+    overflow: hidden; 
+    padding: 0 10px;
+}
+
+
+.popular-items-description {
+    font-size: 20px;
+    margin: 25px 0 5px 10px;
+}
+
 ul.images-row {
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0;
     justify-content: space-evenly;
     align-items: baseline;
+    gap: 5px;
 }
 
-.image {
-    width: 133px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
+.image-1-box9,.image-2-box9,.image-3-box9,.image-5-box9 {
+    height: 190px;
 }
+
+.image-4-box9 {
+    width: 133px;
+}
+
+.image-6-box9 {
+    width: 210px;
+}
+
+.image-7-box9 {
+    height: 185px;
+}
+
+.image-8-box9 {
+    height: 180px;
+}
+
+.box-4-row {
+    max-width: 100%;
+    overflow: hidden; 
+    padding: 0 10px;
+}
+
+.image-1-box10 {
+    height: 190px;
+}
+
+.image-1-box11 {
+    width: 170px;
+}
+
 
