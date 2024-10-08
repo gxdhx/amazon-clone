@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #141c24;
     color: white;
     height: 60px;
@@ -123,6 +123,12 @@
     padding: 7px 10px 10px 8px;
     font-size: 0.938rem;
     transition: all 0.3s ease;
+}
+
+@media (min-width: 1013px) {
+   .middle-section,.search-bar {
+        width: 624.5px;
+   } 
 }
 
 .search-bar::placeholder {
