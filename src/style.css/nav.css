@@ -125,12 +125,6 @@
     transition: all 0.3s ease;
 }
 
-@media (min-width: 1013px) {
-   .middle-section,.search-bar {
-        width: 624.5px;
-   } 
-}
-
 .search-bar::placeholder {
     font-size: 0.938rem;
     font-weight: 400;
@@ -319,4 +313,5 @@
     margin: 6px 2px 7px 1px;
     padding: 3px 8px 5px 8px;
 }
+
 
