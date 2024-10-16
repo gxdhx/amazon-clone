@@ -134,6 +134,12 @@
     outline: none;
 }
 
+@media (max-width:997px) {
+    .search-bar {
+        width: 370px; 
+    }
+}
+
 .search-button {
     background-color: #fdbf61;
     height: 38px;
