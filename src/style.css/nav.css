@@ -116,7 +116,7 @@
 }
 
 .search-bar{
-    width: 370px;
+    width: 346.5px;
     height: 38px;
     border: none;
     border-left: 1px solid #cccccc;
@@ -134,9 +134,15 @@
     outline: none;
 }
 
-@media (max-width:997px) {
+@media (max-width:1014px) {
     .search-bar {
-        width: 370px; 
+        width: 346.5px; 
+    }
+}
+
+@media (min-width:1015px){
+    .search-bar {
+        
     }
 }
 
