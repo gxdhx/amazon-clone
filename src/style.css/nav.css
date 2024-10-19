@@ -18,17 +18,26 @@
 
 .nav-logo {
     width: 113px;
-    padding: 4px 9px 0px 6px;
+    padding: 4px 9px 0px 0;
+    flex-shrink: 0;
+    cursor: pointer;
 }
 
 .logo-img {
     width: 100%;
-    height: 40px;
+    height: 38px;
     object-fit: contain;
     object-position: center;
+    min-width: 113px;
 }
 
-.location {
+@media (min-width:) {
+    .nav-logo {
+
+    }
+}
+
+.location-div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,23 +46,27 @@
     padding: 0px 9px;
     margin: 5px 2px 5px 0;
    box-sizing: border-box;
+   flex-wrap: nowrap;
+   cursor: pointer;
 }
 
 .location-icon{
     color: 	#f2f2f2;
     margin-top: 8px;
     margin-right: 3px;
+    flex-shrink: 0;
 }
 
 .deliver-to {
     font-size: 0.75rem;
     color: #cccccc;
     font-weight: 400;
+    white-space: nowrap;
 }
 
 .country {
-    font-weight: 700;
-    font-size: 0.938rem;
+    font-weight: 500;
+    font-size: 0.906rem;
 }
 
 .middle-section {
@@ -82,6 +95,7 @@
     height: 38px;
     width: 50px;
     transition: all 0.015s ease;
+    flex-shrink: 0;
 }
 
 .dropdown-icon {
@@ -90,9 +104,10 @@
     position: absolute;
     top: 13px;
     left: 36px;
+    cursor: pointer;
 }
 
-.custom-select:hover .dropdown-icon {
+.custom-select:hover {
     color: #282829;
 }
 
@@ -108,6 +123,7 @@
     border-bottom-left-radius: 3.5px;  
     padding-left: 10px; 
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .custom-select:hover .All {
@@ -156,6 +172,7 @@
     border-bottom-right-radius: 4px;
     border: none; 
     transition: all 0.3s ease; 
+    cursor: pointer;
 }
 
 .search-button:hover {
@@ -174,6 +191,7 @@
     justify-content: center;
     margin-left: 1px;
     padding: 12px 8px 5px 10px;
+    cursor: pointer;
 }
 
 .flag-img {
@@ -190,7 +208,7 @@
 }
 
 .dropdown-icon_ {
-    font-size: 0.75rem;
+    font-size: 0.688rem;
     color: #959a9a;
     margin-left: 3px;
     padding-top: 8px;
@@ -199,6 +217,7 @@
 .nav-accountlist {
     padding: 6px 8px 10px 9px;
     margin-left: 1px;
+    cursor: pointer;
 }
 
 .accountlist-row {
@@ -207,11 +226,13 @@
 
 .sign-in {
     font-size: 0.75rem;
+    white-space: nowrap;
 }
 
 .accountlist {
     font-size: 0.875rem;
     font-weight: 800;
+    white-space: nowrap;
 }
 
 .dropdown_icon_ {
@@ -223,6 +244,7 @@
 
 .nav-returns-orders {
     padding: 8px 9px 5px 9px;
+    cursor: pointer;
 }
 
 .returns-text {
@@ -233,12 +255,14 @@
 .order-text {
     font-size: 14px;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .nav-cart {
     display: flex;
     align-items: center;
     padding-right: 8px;
+    cursor: pointer;
 }
 
 .cart-img-div {
@@ -286,6 +310,7 @@
     align-items: center;  
     height: 100%;
     padding: 0 8px 0 8px;
+    cursor: pointer;
 }
 
 .hamburger-icon {
@@ -301,7 +326,6 @@
 
 .nav-main-middle {
     width: 80%;
-    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -310,21 +334,7 @@
     color: #f1ecec;
     font-size: 14px;
     padding: 8px 8px 12px 8px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    cursor: pointer;
 }
-
-.nav-main-right {
-    display: flex;
-    padding-left: 10px;
-    padding-right: 2px;
-    margin-left: 1px;
-}
-
-.nav-main-right-text {
-    color: #f1ecec;
-    font-size: 15px;
-    font-weight: 700;
-    margin: 6px 2px 7px 1px;
-    padding: 3px 8px 5px 8px;
-}
-
-
