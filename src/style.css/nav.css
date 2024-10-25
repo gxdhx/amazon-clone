@@ -272,14 +272,12 @@
 .cart-count-div {
     position: absolute;
     top: 8px;
-    left: 25px;
+    left: 24px;
 }
 
 .cart-count {
     color: #F08804;
     font-weight: 700;
-    top: 15px;
-    left: 5px;
 }
 
 .cart {
