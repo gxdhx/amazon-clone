@@ -74,6 +74,7 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     flex-grow: 1;
+    position: ab;
 }
 
 .middle-section:focus-within {
@@ -328,6 +329,7 @@
     flex-shrink: 0;
     cursor: pointer;
 }
+
 
 
 
