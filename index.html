@@ -6,8 +6,9 @@
     <title>Amazon clone</title>
     <link href="https://fonts.cdnfonts.com/css/amazon-ember?styles=109935,109932,109925,109927" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="src/style.css/nav.css">
     <link rel="stylesheet" href="src/style.css/general.css">
+    <link rel="stylesheet" href="src/style.css/nav.css">
+    <link rel="stylesheet" href="src/style.css/dropdwn.css">
     <link rel="stylesheet" href="src/style.css/hero.css">
     <link rel="stylesheet" href="src/style.css/main-content.css">
 </head>
@@ -31,12 +32,70 @@
                     </select>
                     <i class="fa-solid fa-caret-down dropdown-icon"></i> 
                 </div>
-                <input type="text" placeholder="Search Amazon" class="search-bar">
-                <button class="search-button">
-                   <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                </button>
-                <div class="most-searched-items-container">         
-                </div>
+                <div class="search-dropdown">
+                    <input type="text" placeholder="Search Amazon" class="search-bar">
+                    <button class="search-button">
+                       <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </button> 
+                    <div class="recent-searches-dropdown-div hidden">
+                        <ul>
+                            <li>
+                                <div class="suggestions-recent-searched-item-div">gaming chairs</div>
+                                <div class="suggestions-item-delete-div">
+                                    <i class="fa-solid fa-x suggestions-item-delete-icon"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="suggestions-recent-searched-item-div">gaming</div>
+                                <div class="suggestions-item-delete-div">
+                                    <i class="fa-solid fa-x suggestions-item-delete-icon"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="suggestions-recent-searched-item-div">cleaning tools</div>
+                                <div class="suggestions-item-delete-div">
+                                    <i class="fa-solid fa-x suggestions-item-delete-icon"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="suggestions-recent-searched-item-div">Kitchen</div>
+                                <div class="suggestions-item-delete-div">
+                                    <i class="fa-solid fa-x suggestions-item-delete-icon"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="suggestions-recent-searched-item-div">gaming keyboard</div>
+                                <div class="suggestions-item-delete-div">
+                                    <i class="fa-solid fa-x suggestions-item-delete-icon"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="suggestions-recent-searched-item-div">play station</div>
+                                <div class="suggestions-item-delete-div">
+                                    <i class="fa-solid fa-x suggestions-item-delete-icon"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="suggestions-recent-searched-item-div">summer sandals</div>
+                                <div class="suggestions-item-delete-div">
+                                    <i class="fa-solid fa-x suggestions-item-delete-icon"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="suggestions-recent-searched-item-div">summer fashion</div>
+                                <div class="suggestions-item-delete-div">
+                                    <i class="fa-solid fa-x suggestions-item-delete-icon"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="suggestions-recent-searched-item-div">tops</div>
+                                <div class="suggestions-item-delete-div">
+                                    <i class="fa-solid fa-x suggestions-item-delete-icon"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
             </div>
             <div class="nav-language-dropdown border">
                 <img src="./images/flag.png" class="flag-img">
@@ -456,6 +515,7 @@
         </div>
         <div class="box-12-row box-row"></div>
     </div>
+    <script src="/src/index.js/nav-dropdown.js"></script>
 </body>
 </html>
 
