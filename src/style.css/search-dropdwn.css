@@ -33,13 +33,15 @@
 
 .recent-searches-dropdown-div ul li:hover {
     background-color: #f1f1f1;
+    cursor: pointer;
 }
 
 .suggestions-recent-searched-item-div {
-    color: #a65da6;
+    color: #a350a3;
     font-size: 18px;
     font-weight: 600;
     width: 625px;
+    cursor: pointer;
 }
 
 .suggestions-item-delete-icon {
