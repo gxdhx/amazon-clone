@@ -136,7 +136,7 @@ ul.images-row {
 
 .image-3-box10,.image-4-box10 {
     height: 180px;
-    padding: 0 30px;
+    padding: 0 25px 0 25px;
 }
 
 .image-5-box10 {
@@ -153,12 +153,29 @@ ul.images-row {
     width: 190px;
 }
 
-.image-1-box12 {
-    width: 250px;
+.image-1-box15 {
+    width: 240px;
 }
 
+.image-1-box16,.image-2-box16,.image-4-box16,.image-7-box16 {
+    width: 150px;
+    height: 195px;
+}
 
+.image-3-box16 {
+    height: 180px;
+    width: 160px;
+}
 
+.image-5-box16 {
+    height: 150px;
+    width: 280px;
+}
+
+.image-6-box16 {
+    height: 170px;
+    width: 170px;
+}
 
 
 
