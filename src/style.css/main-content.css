@@ -189,7 +189,7 @@ ul.images-row {
 
 .image-2-box18 {
     height: 180px;
-    width: 130px;
+    width: 120px;
 }
 
 .image-3-box18 {
@@ -199,7 +199,7 @@ ul.images-row {
 
 .image-4-box18 {
     height: 180px;
-    width: 130px;
+    width: 150px;
 }
 
 .image-5-box18 {
@@ -209,16 +209,52 @@ ul.images-row {
 
 .image-6-box18 {
     height: 180px;
-    width: 130px;
+    width: 170px;
 }
 
 .image-7-box18 {
-    height: 130px;
-    width: 260px;
+    height: 90px;
+    width: 280px;
 }
 
 .image-9-box18 {
+    width: 80px;
+    height: 190px;
+}
 
+.image-1-box22 {
+    width: 160px;
+    height: 150px;
+}
+
+.image-2-box22 {
+    height: 155px;
+    width: 50px;
+}
+
+.image-3-box22 {
+    width: 160px;
+    height: 60px;
+}
+
+.image-4-box22 {
+    width: 180px;
+    height: 150px;
+}
+
+.image-5-box22 {
+    width: 170px;
+    height: 150px;
+}
+
+.image-6-box22 {
+    width: 120px;
+    height: 150px;
+}
+
+.image-7-box22 {
+    width: 120px;
+    height: 150px;
 }
 
 
