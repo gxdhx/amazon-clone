@@ -17,6 +17,10 @@
     height: 261.500px;
 }
 
+.box-outer-row {
+    padding: 10px 20px;
+}
+
 .box-2-row,.box-3-row,.box-4-row,.box-5-row,.box-6-row,.box-7-row,.box-8-row,.box-9-row,.box-10-row,.box-11-row,.box-12-row {
     margin-top: 20px;
 }
@@ -173,8 +177,8 @@ ul.images-row {
 }
 
 .image-5-box16 {
-    height: 150px;
-    width: 280px;
+    height: 140px;
+    width: 250px;
 }
 
 .image-6-box16 {
@@ -220,6 +224,34 @@ ul.images-row {
 .image-9-box18 {
     width: 80px;
     height: 190px;
+}
+
+.image-1-box21,.image-2-box21,.image-3-box21 {
+    height: 190px;
+}
+
+.image-4-box21 {
+    height: 185px;
+    width: 175px;
+}
+
+.image-5-box21 {
+    width: 140px;
+    height: 185px;
+}
+
+.image-6-box21 {
+    height: 185px;
+}
+
+.image-7-box21 {
+    height: 80px;
+    width: 200px;
+}
+
+.image-8-box21 {
+    width: 90px;
+    height: 180px;
 }
 
 .image-1-box22 {
