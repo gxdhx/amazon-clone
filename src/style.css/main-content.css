@@ -4,8 +4,18 @@
     left: 20px;
     right: 20px;
     z-index: 4;
-    background-color: rgba(228, 228, 228, 0.10); 
+    background-color: rgba(228, 228, 228, 0.10);
+    /* Additional styles */
 }
+
+.box-13-row {
+    background-color: white;
+    margin-top: 55px; 
+    height: 105px;
+    position: relative;
+    z-index: 5;
+}
+
 
 .box-column {
     background-color: white;
@@ -282,6 +292,8 @@ ul.images-row {
     width: 120px;
     height: 150px;
 }
+
+
 
 
 

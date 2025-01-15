@@ -16,7 +16,7 @@
     background-color: white;
     color: black;
     border-top: rgb(174, 168, 168) 1px solid;
-    z-index: 1;
+    z-index: 6;
 }
 
 .recent-searches-dropdown-div ul {
