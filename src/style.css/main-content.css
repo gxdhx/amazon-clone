@@ -81,7 +81,7 @@
     margin-top: 18px;
 }
 
-.box-3-row {
+.box-3-row,.box-4-row,.box-6-row,.box-7-row,.box-9-row,.box-10-row,.box-12-row {
     max-width: 100%;
     overflow: hidden; 
     padding: 0 10px;
@@ -121,12 +121,6 @@ ul.images-row {
 
 .image-8-box9 {
     height: 180px;
-}
-
-.box-4-row,.box-5-row,.box-6-row {
-    max-width: 100%;
-    overflow: hidden; 
-    padding: 0 10px;
 }
 
 .image-1-box10 {
