@@ -1,21 +1,9 @@
 .main-content {
-    position: absolute;
-    top: 412px;
-    left: 20px;
-    right: 20px;
-    z-index: 4;
-    background-color: rgba(228, 228, 228, 0.10);
-    /* Additional styles */
+    background-color: rgba(255, 255, 255, 0.307);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -288px;
 }
-
-.box-13-row {
-    background-color: white;
-    margin-top: 55px; 
-    height: 105px;
-    position: relative;
-    z-index: 5;
-}
-
 
 .box-column {
     background-color: white;
@@ -31,9 +19,10 @@
     padding: 10px 20px;
 }
 
-.box-2-row,.box-3-row,.box-4-row,.box-5-row,.box-6-row,.box-7-row,.box-8-row,.box-9-row,.box-10-row,.box-11-row,.box-12-row {
+.row-gap {
     margin-top: 20px;
 }
+
 
 .box-1-row,.box-2-row,.box-5-row,.box-8-row,.box-11-row {
     display: grid;
@@ -293,6 +282,23 @@ ul.images-row {
     height: 150px;
 }
 
+
+.box-13-row {
+    background-color: #ffffff;
+    margin-top: 25px;
+    height: 210px;
+    position: relative;
+}
+
+.sign-in-div {
+    border: 1px solid rgb(225, 215, 215);
+    border-radius: 5px;
+    height: 148px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+}
 
 
 
