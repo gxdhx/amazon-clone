@@ -1,5 +1,4 @@
 .main-content {
-    background-color: rgba(255, 255, 255, 0.307);
     margin-left: 20px;
     margin-right: 20px;
     margin-top: -288px;
@@ -298,10 +297,36 @@ ul.images-row {
     top: 40px;
     left: 0;
     right: 0;
+
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;    
+    padding-top: 35px;
 }
 
+.recommendations-text {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 8px;
+}
 
+.sign-in-button {
+    background-color: #ffdc14;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 95px;
+    font-size: 14px;
+}
 
+.new-customer-text {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.start-here-link {
+    color: #0a8ba2;
+    font-size: 12px;
+}
 
 
 
