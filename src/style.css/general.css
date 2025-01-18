@@ -1,5 +1,6 @@
 * {
     margin:0;
+    padding: 0;
     font-family: 'Amazon Ember', arial,sans-serif;
     box-sizing: border-box;
 }
@@ -9,5 +10,11 @@ body {
     padding-bottom: 10000px;
 }
 
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 
