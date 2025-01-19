@@ -18,18 +18,19 @@
 
 /*footer section 2*/
 .footer-vertical-row-1 {
-    background-color: #333c4c;;
+    background-color: #2b3341;
     color: #ffffff;
     min-height: 390px;
-    padding: 40px 0; 
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
 }
 
 .footer-vertical-column {
-    height: 292px;
-    padding-left: 185px;
-    padding-right: 185px;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 185px;
+    column-gap: 70px;
 }
 
 .footer-link-columns {
@@ -51,8 +52,9 @@
     color: #dcdada;
     font-size: 14px;
     font-weight: 500;
+    line-height: 1.2;
+    display: inline-block;
     transition:  text-decoration 0.1s;
-    cursor: pointer;
 }
 
 .footer-a-link:hover {
@@ -64,15 +66,9 @@
     margin-right: 5px;
 }
 
-.footer-col-spacer {
-    width: 80px;
-    height: 292px;
-    padding: 0 10px;
-}
-
 /*footer section 3*/
 .footer-vertical-row-2 {
-    background-color: #333c4c;
+    background-color: #2b3341;
     border-top:  1px solid rgb(69, 82, 98);
     display: flex;
     align-items: center;
@@ -175,7 +171,7 @@
 
 /*footer section 4......section 2 margin*/ 
 .footer-vertical-row-3 {
-    background-color: #242c37;
+    background-color: #1c222b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,7 +180,11 @@
 
 .footer-desc-items-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: repeat(7, 1fr); 
+    grid-auto-rows: auto; 
+    padding: 30px 175px;
+    column-gap: 45px;
+    row-gap: 15px;
 }
 
 .footer-desc-items-li-links {
@@ -195,9 +195,46 @@
 .footer-desc-items-col-head {
     color: rgb(227, 225, 225);
     font-size: 12px;
+    line-height: 1.2;
+    display: inline-block;
 }
 
 .footer-desc-items-link {
     color: #a1a0a0;
     font-size: 12px;
+    line-height: 1;
+    display: inline-block;
+}
+
+.footer-desc-items-col:hover .footer-desc-items-col-head,
+.footer-desc-items-col:hover .footer-desc-items-link {
+    text-decoration: underline;
+}
+
+/*footer section 5*/ 
+.footer-vertical-row-4 {
+    background-color: #1c222b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px 0 30px;
+}
+
+.footer-text-item-container-row {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text-item {
+    font-size: 12px;
+    color: #e3dede;
+    margin-bottom: 5px;
+    padding: 0 8px; 
+    transition: text-decoration 0.01s;
+}
+
+.footer-text-item:hover {
+    text-decoration: underline;
 }
