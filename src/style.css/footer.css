@@ -29,12 +29,11 @@
 .footer-vertical-column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 0 185px;
-    column-gap: 70px;
+    padding: 0 175px;
+    column-gap: 50px;
 }
 
 .footer-link-columns {
-    height: 100%;
     padding: 0 10px;
 }
 
@@ -42,6 +41,7 @@
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 10px;
+    white-space: nowrap
 }
 
 .footer-li-link {
@@ -169,7 +169,7 @@
     padding: 0 8px;
 }
 
-/*footer section 4......section 2 margin*/ 
+/*footer section 4*/ 
 .footer-vertical-row-3 {
     background-color: #1c222b;
     display: flex;

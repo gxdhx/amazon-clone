@@ -36,12 +36,11 @@
 
 .hero-msg-link {
     color: #007185;
-    text-decoration: none;
     transition: all 0.015s;
 }
 
 .hero-msg-link:hover {
-    color: #D75555;
+    color: #007185;
     text-decoration: underline;
 }
 

@@ -22,7 +22,6 @@
     margin-top: 20px;
 }
 
-
 .box-1-row,.box-2-row,.box-5-row,.box-8-row,.box-11-row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
