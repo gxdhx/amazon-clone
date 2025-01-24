@@ -11,7 +11,7 @@
 
 .box-row {
     background-color: white;
-    height: 261.500px;
+    height: 282px;
 }
 
 .box-outer-row {
@@ -59,11 +59,11 @@
     display: inline-block;
     margin-left: 20px;
     margin-top: 30px;
-    transition: all 0.15s;
+    transition: color 0.1s;
 }
 
 .explore-description:hover {
-    color: #D75555;
+    color: #086474;
 }
 
 .second-row-image {
