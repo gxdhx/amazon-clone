@@ -14,8 +14,8 @@
     height: 282px;
 }
 
-.box-outer-row {
-    padding: 10px 20px;
+.div-outer-horizontal {
+    padding: 0 10px;
 }
 
 .row-gap {
@@ -81,7 +81,6 @@
 .box-3-row,.box-4-row,.box-6-row,.box-7-row,.box-9-row,.box-10-row,.box-12-row {
     max-width: 100%;
     overflow: hidden; 
-    padding: 0 10px;
 }
 
 
@@ -219,8 +218,8 @@
 .image-class {
 height: auto;
 width: auto;
-max-width: 200px;
-max-height: 200px;
+max-width: 195px;
+max-height: 190px;
 }
 
 .box-13-row {
