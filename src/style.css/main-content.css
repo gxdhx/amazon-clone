@@ -12,10 +12,12 @@
 .box-row {
     background-color: white;
     height: 282px;
+    max-width: 100%;
+    overflow: hidden; 
 }
 
-.div-outer-horizontal {
-    padding: 0 10px;
+.div-outer-horizontal-row {
+    padding: 0 20px;
 }
 
 .row-gap {
@@ -78,12 +80,6 @@
     margin-top: 18px;
 }
 
-.box-3-row,.box-4-row,.box-6-row,.box-7-row,.box-9-row,.box-10-row,.box-12-row {
-    max-width: 100%;
-    overflow: hidden; 
-}
-
-
 .popular-items-description {
     font-size: 20px;
     margin: 25px 0 5px 10px;
@@ -93,133 +89,16 @@
     display: flex;
     flex-wrap: nowrap;
     padding: 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    gap: 5px;
-}
-
-.image-1-box9,.image-2-box9,.image-3-box9,.image-5-box9 {
-    height: 190px;
-}
-
-.image-4-box9 {
-    width: 133px;
-}
-
-.image-6-box9 {
-    width: 210px;
-}
-
-.image-7-box9 {
-    height: 185px;
-}
-
-.image-8-box9 {
-    height: 180px;
-}
-
-.image-1-box10 {
-    height: 180px;
-    padding-right: 3px;
-}
-
-.image-2-box10 {
-    width: 220px;
-}
-
-.image-3-box10,.image-4-box10 {
-    height: 180px;
-    padding: 0 25px 0 25px;
-}
-
-.image-5-box10 {
-    width: 250px;
-    padding-right: 5px;
-}
-
-.image-6-box10 {
-    width: 195px;
-    padding-right: 5px;
-}
-
-.image-7-box10 {
-    width: 190px;
-}
-
-.image-1-box15 {
-    width: 240px;
-}
-
-.image-1-box16,.image-2-box16,.image-4-box16,.image-7-box16 {
-    width: 150px;
-    height: 195px;
-}
-
-.image-2-box16 {
-    width: 150px;
-    height: 195px
-}
-
-.image-3-box16 {
-    height: 180px;
-    width: 160px;
-}
-
-.image-5-box16 {
-    height: 140px;
-    width: 250px;
-}
-
-.image-6-box16 {
-    height: 170px;
-    width: 170px;
-}
-
-.image-1-box17 {
-    height: 180px;
-    width: 130px;
-}
-
-.image-2-box18 {
-    height: 180px;
-    width: 120px;
-}
-
-.image-3-box18 {
-    height: 180px;
-    width: 130px;
-}
-
-.image-4-box18 {
-    height: 180px;
-    width: 150px;
-}
-
-.image-5-box18 {
-    height: 180px;
-    width: 130px;
-}
-
-.image-6-box18 {
-    height: 180px;
-    width: 170px;
-}
-
-.image-7-box18 {
-    height: 90px;
-    width: 280px;
-}
-
-.image-9-box18 {
-    width: 80px;
-    height: 190px;
-}
+} 
 
 .image-class {
-height: auto;
-width: auto;
-max-width: 195px;
-max-height: 190px;
+    max-width: 255px;
+    max-height: 195px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .box-13-row {
