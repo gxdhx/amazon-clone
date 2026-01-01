@@ -86,7 +86,7 @@
 
 .popular-items-description {
   font-size: 20px;
-  margin: 25px 0 5px 10px;
+  margin: 25px 0 8px 10px;
 }
 
 .images-row {
@@ -95,14 +95,39 @@
   padding: 0;
   justify-content: space-between;
   align-items: center;
+  overflow: auto;
+  white-space: nowrap;
+  gap: 30px;
+}
+
+/*Horizontalscrolling*/
+.div-inner-hotizontal {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* hide scrollbar */
+.images-row::-webkit-scrollbar {
+  height: 0;
+}
+
+/* visible */
+.div-inner-hotizontal:hover .images-row::-webkit-scrollbar {
+  height: 7px; 
+}
+
+/*scrollbar styling*/
+.images-row::-webkit-scrollbar-thumb {
+  background: #adabab;
+  border-radius: 10px;
+}
+
+.images-row::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .image-class {
-  max-width: 255px;
-  max-height: 195px;
-  width: 100%;
-  height: auto;
-  object-fit: contain;
+  max-width: 300px;
 }
 
 .box-13-row {
